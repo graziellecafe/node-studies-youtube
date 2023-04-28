@@ -42,3 +42,35 @@ var http = require("fs");
 http.createServer().listen(8081);
 console.log("o servidor esta rodando");
 ```
+
+## Express (Framework)
+
+- Para o que o um framework serve?
+  É uma ferramenta que serve para facilitar o seu trabalho quando você utiliza alguma tecnologia como o Node.
+- o express é o módulo
+- O Express serve pra criar aplicações web backend com Node JS.
+- É um framework minimalista
+
+```js
+const express = require("express");
+const app = express();
+
+app.get("/", function (req, res) {
+  res.send("Hello World");
+});
+
+app.listen(3000);
+```
+
+## Introdução ao Express
+
+O Express é o módulo
+`const express = require("express");`
+
+//const app = criacao de variacao app está recebendo a funcao express que vem do modulo express, criando uma instancia, ou seja, cria uma copia inteira do framework dentro do express
+`const app = express();`
+
+// funcao de callback: é executada sempre que algum evento acontece
+
+//localhost:8081
+`app.listen(8081);`

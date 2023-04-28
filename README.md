@@ -10,4 +10,8 @@ var soma = function (a, b) {
 };
 
 module.exports = soma;
+
+
+No módulo calc você cria:
+var SomaFunc = require("./soma");
 ```

@@ -1,4 +1,4 @@
-# node-studies-youtube
+# Node Studies from Course Victor Lima (Youtube)
 
 Learning node from classes at Youtube: Victor Lima
 
@@ -12,7 +12,7 @@ var soma = function (a, b) {
 module.exports = soma;
 
 
-No módulo calc você cria:
+//No módulo calc você cria:
 var SomaFunc = require("./soma");
 ```
 
@@ -65,12 +65,17 @@ app.listen(3000);
 ## Introdução ao Express
 
 O Express é o módulo
-`const express = require("express");`
+```js
+const express = require("express");
+
 
 //const app = criacao de variacao app está recebendo a funcao express que vem do modulo express, criando uma instancia, ou seja, cria uma copia inteira do framework dentro do express
-`const app = express();`
 
-// funcao de callback: é executada sempre que algum evento acontece
+//funcao de callback: é executada sempre que algum evento acontece
 
-//localhost:8081
-`app.listen(8081);`
+
+const app = express();
+
+const app.listen(8081);
+
+

@@ -62,20 +62,5 @@ app.get("/", function (req, res) {
 app.listen(3000);
 ```
 
-## Introdução ao Express
-
-O Express é o módulo
-```js
-const express = require("express");
-
-
-//const app = criacao de variacao app está recebendo a funcao express que vem do modulo express, criando uma instancia, ou seja, cria uma copia inteira do framework dentro do express
-
-//funcao de callback: é executada sempre que algum evento acontece
-
-
-const app = express();
-
-const app.listen(8081);
-
-
+## Rotas 
+- O que é? É um caminho para a sua aplicação. 
